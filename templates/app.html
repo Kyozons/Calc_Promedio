@@ -4,20 +4,20 @@
     <title>Calculadora Promedios</title>
     <link
       rel="stylesheet"
-      href="{{ url_for('static',filename='css/app.css') }}"
+      href="main.css"
       />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">	
   </head>
   <body>
     <div class="header">
       <h2>Calcula tu promedio con Porcentajes!</h2>
-      <small>Para tí, hermosa</small>
     </div>
 
     <!-- Form -->
     <div class="container">
-      <label for="ejemplo">Ejemplo</label>
-      <input type="text" disabled value="65">
-      <input type="text" disabled value="30">
+      <label for="ejemplo" id="ejemplo">Ejemplo</label>
+      <input type="text"  id="ej1" name="ej1" disabled value="65">
+      <input type="text" id="ej2" name="ej2" disabled value="30">
       <form action="/calcular" method="post">
 
         <div class="form-group">
@@ -113,3 +113,4 @@
     </div> 
   </body>
 </html>
+
