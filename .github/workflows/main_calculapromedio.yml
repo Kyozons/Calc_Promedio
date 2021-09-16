@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'calculapromedio'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_5dcfdb81c6a842a1b35b75111f0ed13f }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_4f44178f10714339a6df43b148cfdf19 }}
