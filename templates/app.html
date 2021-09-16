@@ -5,7 +5,7 @@
     <title>Calculadora Promedios</title>
     <link
       rel="stylesheet"
-      href="{{ url_for('static', filename='css/app.css') }}"
+      href="{{ url_for('static', filename='app.css') }}"
       />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">	
   </head>
@@ -106,7 +106,7 @@
 	
         <input type="submit" value="calcular" id="btn_calc" class="btn" />
         <br />
-        <div class="alert" >
+        <div class="alert" id="alert">
 	  {{ promedio }}
         </div>
       </form>

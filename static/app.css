@@ -23,7 +23,6 @@ body {
 }
 
 
-
 input {
 	margin: 10px 5px;
 	font: 1vw 'Courier New', Courier, Monospace;
@@ -40,7 +39,7 @@ input {
 	text-shadow: 0px 0px 0px;
 }
 
-#btn_calc {
+.btn {
   	font-family: 'Courier New', Courier, monospace;
 	background-color: rgba(100, 30, 80, 0.4);
 	max-width: 50%;
@@ -61,3 +60,4 @@ input {
 	font-size: 70%;
 }
 
+.
